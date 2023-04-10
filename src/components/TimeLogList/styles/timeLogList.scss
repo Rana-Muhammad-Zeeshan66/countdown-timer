@@ -1,0 +1,33 @@
+$startTimeColor: hsl(180, 50%, 40%);
+$splitTimeColor: hsl(39, 100%, 60%);
+$pauseTimeColor: hsl(350, 73%, 68%);
+$resetTimeColor: hsl(240, 100%, 70%);
+
+.timeloglist-list {
+  list-style: none;
+}
+
+.timeloglist-listRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+  margin: 20px 40px 0 10px;
+  color: #ccc;
+}
+
+.time-color-start {
+  color: $startTimeColor;
+}
+
+.time-color-pause {
+  color: $pauseTimeColor;
+}
+
+.time-color-split {
+  color: $splitTimeColor;
+}
+
+.time-color-reset {
+  color: $resetTimeColor;
+}

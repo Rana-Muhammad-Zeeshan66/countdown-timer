@@ -1,0 +1,39 @@
+$startButtonColor: hsl(180, 50%, 40%);
+$splitButtonColor: hsl(39, 100%, 60%);
+$pauseButtonColor: hsl(350, 73%, 68%);
+$resetButtonColor: hsl(240, 100%, 70%);
+
+.timer-action-button {
+  border: none;
+  padding: 35px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #fff;
+}
+
+.timer-action-button:disabled {
+  background-color: #fff;
+  color: #ccc;
+  border: 2px solid #ccc;
+}
+
+.button-bgcolor-start {
+  background-color: $startButtonColor;
+}
+
+.button-bgcolor-pause {
+  background-color: $pauseButtonColor;
+}
+
+.button-bgcolor-split {
+  background-color: $splitButtonColor;
+}
+
+.button-bgcolor-reset {
+  background-color: $resetButtonColor;
+}
