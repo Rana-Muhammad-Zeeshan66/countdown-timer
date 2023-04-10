@@ -41,9 +41,9 @@ const CountDownPage = () => {
         ...entryLogList,
         {
           stopperTimeType: eventName,
-          stopperTime: `${hours}:${minutes}:${seconds}:${milliseconds
+          stopperTime: `${hours}:${minutes}:${seconds}.${milliseconds
             .toString()
-            .slice(0, 1)}.${milliseconds.toString().slice(1)}`,
+            .slice(0, 1)}${milliseconds.toString().slice(1)}`,
         },
       ]);
     }
@@ -54,9 +54,9 @@ const CountDownPage = () => {
       ...entryLogList,
       {
         stopperTimeType: eventName,
-        stopperTime: `${hours}:${minutes}:${seconds}:${milliseconds
+        stopperTime: `${hours}:${minutes}:${seconds}.${milliseconds
           .toString()
-          .slice(0, 1)}.${milliseconds.toString().slice(1)}`,
+          .slice(0, 1)}${milliseconds.toString().slice(1)}`,
       },
     ]);
   };
